@@ -33,8 +33,8 @@ export async function POST(req: NextRequest) {
     const prompt = PromptTemplate.fromTemplate(TEMPLATE);
 
     const model = new ChatOpenAI({
-      temperature: 0.8,
-      modelName: "gpt-3.5-turbo-16k",
+      temperature: 0.1,
+      modelName: "gpt-3.5-turbo-0125",
     });
 
     // Modified schema to include new fields
