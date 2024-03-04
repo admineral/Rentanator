@@ -4,7 +4,7 @@ export default function AgentsPage() {
   const InfoCard = (
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
-        🏠 RentPaca: Extracting Key Data from Rental Agreements 📑🔍
+        🏠Extracting Key Data from Rental Agreements 📑🔍
       </h1>
       <ul>
         <li className="text-l">
